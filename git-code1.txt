@@ -1,0 +1,137 @@
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO
+$ git init
+Initialized empty Git repository in F:/RAJITHA/PERSONAL-PORTFOLIO/.git/
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (master)
+$ git remote add origin https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (master)
+$ git branch -M main
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git'
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git commit - "first commit"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'first commit' did not match any file(s) known to git
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ ^C
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git fetch
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git commit -m "first commit"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SCRIPT.txt
+        img/
+        index.html
+        mixitup.min.js
+        script.js
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git add .
+warning: in the working copy of 'mixitup.min.js', LF will be replaced by CRLF the next time Git touches it
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git remote add origin https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git
+error: remote origin already exists.
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git branch -M main
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git'
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git'
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ ^C
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git commit -m "first commit"
+[main (root-commit) c3dbc63] first commit
+ 15 files changed, 1997 insertions(+)
+ create mode 100644 SCRIPT.txt
+ create mode 100644 img/BG1.jpeg
+ create mode 100644 img/CSHARP.jfif
+ create mode 100644 img/CSHARP.webp
+ create mode 100644 img/MERN.jfif
+ create mode 100644 img/MERN.png
+ create mode 100644 img/MERN.webp
+ create mode 100644 img/MERN1.jfif
+ create mode 100644 img/MERN1.jpg
+ create mode 100644 img/RAJITHA-PEIRIS-OFFICE-OVAL.png
+ create mode 100644 img/aspnet1.jpg
+ create mode 100644 index.html
+ create mode 100644 mixitup.min.js
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 1.47 MiB | 351.00 KiB/s, done.
+Total 18 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/RajithaPeiris-PersonalPortfolio/2024PersonalPortfolio.git
+ * [new branch]      main -> main
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Screenshot 2024-05-08 123255.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git add .
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git push origin main
+Everything up-to-date
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Screenshot 2024-05-08 123255.png
+
+
+Test@SD4 MINGW64 /f/RAJITHA/PERSONAL-PORTFOLIO (main)
+$
