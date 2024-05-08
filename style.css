@@ -747,6 +747,7 @@ section {
     gap: 2rem;
     align-items:center;
     justify-content: center;
+    height: 30%;
 }
 
 .port-box{
