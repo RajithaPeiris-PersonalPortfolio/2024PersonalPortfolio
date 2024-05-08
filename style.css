@@ -129,8 +129,9 @@ section {
 }
 
 .home-content {
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin-top: 4rem;
+    max-width: 100%; height: auto;
 }
 
 .home-content h1{
@@ -745,6 +746,7 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     gap: 2rem;
     align-items:center;
+    justify-content: center;
 }
 
 .port-box{
@@ -1139,12 +1141,16 @@ footer a i{
     }
     .home{
         grid-template-columns: 1fr;
+        width: 100%;
     }
     .home-content p{
-        flex-direction: column-reverse;
+        /*flex-direction: column-reverse;*/
+        width: 100%;
     }
     .home-image{
         margin-bottom: 5rem;
+        max-width: 100%;
+        height: auto;
     }
     section{
         padding: 50px 5%;
