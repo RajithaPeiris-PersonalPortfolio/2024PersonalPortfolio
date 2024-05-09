@@ -108,16 +108,3 @@ window.onscroll = ()=>{
     menuIcon.classList.remove("bx-x");
     navlist.classList.remove("open");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
