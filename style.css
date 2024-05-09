@@ -72,7 +72,7 @@ header.sticky {
 }
 
 span {
-    color: var(--hover-color);
+    color: var(--hover-color) !important;
 }
 
 .navlist {
@@ -1166,7 +1166,30 @@ footer a i{
     .about{
         flex-direction: column-reverse;
     }
+    .skill-main{
+        grid-template-columns: 1fr;
+    }
+    .filter-buttons{
+        margin: 2.5rem 0;
+    }
 }
+
+@media(max-width:420px) {
+    html{
+        font-size: 80%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
